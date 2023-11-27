@@ -22,8 +22,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="w-full">
-      <div className="w-full relative flex justify-center place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+      <div className="w-full mt-4">
+      <div className="w-full relative flex justify-center place-items-center">
       {/*  <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src="/playa.jpg"
@@ -33,7 +33,7 @@ export default function Home() {
           priority
           />   */}
         {/* <YouTubeApi />  playlistId = 'PL4klOpcy-qH57XRNC-7ere5lEhpjKVGJc'; auth: 'AIzaSyCyI0PQdJkdAJI49hxBQ5b3eS4jOLrqNfU' */}
-        <iframe title="météo d'ici et d'ailleurs en temps réel" sandbox="allow-same-origin allow-scripts allow-forms allow-popups" width="480" height="480" allow="autoplay" src="https://meteo.souly-p.com"></iframe>
+        <iframe className="rounded-full hover:rounded-lg ease-in-out duration-[2000ms]" title="météo d'ici et d'ailleurs en temps réel" sandbox="allow-same-origin allow-scripts allow-forms allow-popups" width="480" height="480" allow="autoplay" src="https://meteo.souly-p.com"></iframe>
         {/* <iframe title="Universe Lighthouse from SoulY P." sandbox="allow-same-origin allow-scripts allow-forms allow-popups" width="480" height="480" allow="autoplay;muted" src="https://www.youtube.com/embed/o-HpYxf3O1o?si=7agYhDA48bG1Z8Ea"></iframe> */}
       </div>
       </div>
