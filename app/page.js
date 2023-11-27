@@ -32,77 +32,77 @@ export default function Home() {
           height={419}
           priority
           />   */}
-        {/* <YouTubeApi />  playlistId = 'PL4klOpcy-qH57XRNC-7ere5lEhpjKVGJc'; auth: 'AIzaSyCyI0PQdJkdAJI49hxBQ5b3eS4jOLrqNfU' */}
-        <iframe className="rounded-full hover:rounded-lg ease-in-out duration-[2000ms]" title="météo d'ici et d'ailleurs en temps réel" sandbox="allow-same-origin allow-scripts allow-forms allow-popups" width="480" height="480" allow="autoplay" src="https://meteo.souly-p.com"></iframe>
+        {/* <YouTubeApi /> */}
+        <iframe className="rounded-full hover:rounded-lg ease-in-out duration-[2000ms] hover:h-[100vh]" title="météo d'ici et d'ailleurs en temps réel" sandbox="allow-same-origin allow-scripts allow-forms allow-popups" width="480" height="480" allow="autoplay" src="https://meteo.souly-p.com"></iframe>
         {/* <iframe title="Universe Lighthouse from SoulY P." sandbox="allow-same-origin allow-scripts allow-forms allow-popups" width="480" height="480" allow="autoplay;muted" src="https://www.youtube.com/embed/o-HpYxf3O1o?si=7agYhDA48bG1Z8Ea"></iframe> */}
       </div>
       </div>
       <div className="mb-32 mt-20 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://www.youtube.com/@soulyp-electromusic"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+            YouTube{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-4 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
+            Official Artist Channel
           </p>
         </a>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://open.spotify.com/artist/0rKgOix7d2CKBeIwLoZM9l"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+            Spotify{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-4 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
+          Official Artist Page
           </p>
         </a>
 
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://music.apple.com/fr/artist/souly-p/1529090256"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+          Apple{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-4 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
+          Official Artist Page
           </p>
         </a>
 
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://music.amazon.com/artists/B08GL1JJQG/souly-p"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+          Amazon{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-4 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+          Official Artist Page
           </p>
         </a>
       </div>
